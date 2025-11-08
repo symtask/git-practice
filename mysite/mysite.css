@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 70px; 
+  background-color: pink;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo img{width: auto;height: 70px;}
+
+nav{
+  width: 500px;
+  height: 70px;
+}
+
+nav  ul{
+list-style: none;
+line-height: 70px;
+display: flex;
+justify-content: space-around;
+}
+
+.top{
+  width: 100%;height: 700px;
+  background-image: url(img/visual.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toptext {
+  text-align: center;
+  color: white;
+  }
+
+.title{font-size: 100px;}
+
+
+.portforiobox{
+  text-align: center;
+}
+
+
+.gazobox{width: 100%;height: 650px;background-color: blueviolet;}
+.gazozone
+{
+  width: 1000px;height: 650px;
+  background-color: aqua;
+  margin: 0 auto;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+.gazo{
+  width: 300px;height: 300px;
+  margin: 10px;
+  background-size: cover;
+  background-position:center 
+}
+
+
+.img1{background-image: url(img/img1.jpg);}
+.img2{background-image: url(img/img2.jpg);}
+.img3{background-image: url(img/img3.jpg);}
+.img4{background-image: url(img/img4.jpg);}
+.img5{background-image: url(img/img5.jpg);}
+.img6{background-image: url(img/img6.jpg);}
+
+.myprois{text-align: center;}
+.protext{padding: 30px 0;}
+
+
+.kaobox{
+  height: 390px;
+  display: flex;
+  justify-content: center;
+}
+
+.kao{
+  width: 300px; 
+  height: 300px; 
+  background-color: pink;
+background-image:url(img/kao.jpg);
+border-radius: 50%;
+background-size: cover;
+margin:5px;
+}
+
+.kaotext{
+  padding-top: 20px;
+  width: 400px; 
+  height: 300px;
+  background-color: beige;
+  margin-left: 100px;
+}
+
+
+.myname{font-size: 20px;line-height: 30px;}
+.mynametext{margin: 5px;}
+.myskill{font-size: 20px;line-height: 30px;}
+.myskilltext{margin: 5px;}
+
+
+footer{
+  width: 100%;
+  height: 60px;
+background-color: pink;
+text-align: center;
+line-height: 60px;
+}
