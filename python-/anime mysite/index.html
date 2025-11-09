@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFアニメを推す部屋 - 傑作選</title>
+    
+    <!-- Tailwind CSS CDNをロード (これはHTMLに残します) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 外部CSSファイルを読み込み -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- フォントの読み込み (CSSファイルからも参照されます) -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- ヘッダー -->
+    <header class="w-full py-8 mb-10 bg-gray-900 shadow-xl border-b-4 border-indigo-500">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-center text-indigo-300">
+            SFアニメを推す部屋
+        </h1>
+    </header>
+
+    <!-- メインコンテンツ (ギャラリー) -->
+    <main class="container mx-auto p-4 md:p-8">
+        <section class="anime-gallery grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            
+            <!-- アニメアイテム群 -->
+            <div class="anime-item bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 overflow-hidden group cursor-pointer">
+                <a href="https://sneakerbunko.jp/haruhi/" target="_blank" rel="noopener noreferrer" class="block">
+                    <img src="https://www.kyotoanimation.co.jp/img/works/key_visual/disappearance.jpg" alt="涼宮ハルヒの憂鬱" class="w-full h-48 object-cover object-top transition duration-300 group-hover:opacity-75">
+                    <p class="p-3 text-center font-bold text-sm md:text-base">涼宮ハルヒの憂鬱</p>
+                </a>
+            </div>
+            <div class="anime-item bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 overflow-hidden group cursor-pointer">
+                <a href="https://steinsgate.jp/" target="_blank" rel="noopener noreferrer" class="block">
+                    <img src="https://steinsgate.jp/common/img/topimage.jpg" alt="シュタインズ・ゲート" class="w-full h-48 object-cover object-top transition duration-300 group-hover:opacity-75">
+                    <p class="p-3 text-center font-bold text-sm md:text-base">シュタインズ・ゲート</p>
+                </a>
+            </div>
+            <div class="anime-item bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 overflow-hidden group cursor-pointer">
+                <a href="https://theghostintheshell.jp/series/stand_alone_complex" target="_blank" rel="noopener noreferrer" class="block">
+                    <img src="https://www.shirow-masamune-ex.jp/assets/images/mv_pc.jpg" alt="攻殻機動隊" class="w-full h-48 object-cover object-top transition duration-300 group-hover:opacity-75"> 
+                    <p class="p-3 text-center font-bold text-sm md:text-base">攻殻機動隊</p>
+                </a>
+            </div>
+            <div class="anime-item bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 overflow-hidden group cursor-pointer">
+                <a href="https://v-storage.jp/sp-site/akira/introduction/" target="_blank" rel="noopener noreferrer" class="block"> 
+                    <img src="https://occ-0-3188-3187.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABW6mp60B3m8uvIUi28w5dHGGCRS0CxrzkE-bAh2TUPidsOG3-M8cQvQLkUux4sx8pRlC65uKch4X5qOZS7P9Z2fqGx8_0KhvKOxd.webp?r=e2d" alt="AKIRAポスター" class="w-full h-48 object-cover object-top transition duration-300 group-hover:opacity-75">
+                    <p class="p-3 text-center font-bold text-sm md:text-base">AKIRA</p>
+                </a>
+            </div>
+            
+            <div class="anime-item bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 overflow-hidden group cursor-pointer">
+                <a href="https://30th.evangelion.jp/" target="_blank" rel="noopener noreferrer" class="block">
+                    <img src="https://www.evangelion.jp/images/ng/main.jpg" alt="エヴァンゲリオン" class="w-full h-48 object-cover object-top transition duration-300 group-hover:opacity-75">
+                    <p class="p-3 text-center font-bold text-sm md:text-base">エヴァンゲリオン</p>
+                </a>
+            </div>
+            <div class="anime-item bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 overflow-hidden group cursor-pointer">
+                <a href="https://geass.jp/" target="_blank" rel="noopener noreferrer" class="block">
+                    <img src="https://image2.b-ch.com/ttl2/6047/6047001a.jpg?impolicy=fitin&ww=240&hh=135" alt="コードギアス反逆のルルーシュ" class="w-full h-48 object-cover object-top transition duration-300 group-hover:opacity-75">
+                    <p class="p-3 text-center font-bold text-sm md:text-base">コードギアス反逆のルルーシュ</p>
+                </a>
+            </div>
+            <div class="anime-item bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 overflow-hidden group cursor-pointer">
+                <a href="https://psycho-pass.com/archive/" target="_blank" rel="noopener noreferrer" class="block">
+                    <img src="https://i.pinimg.com/1200x/89/ff/66/89ff66baf81d50d43588903d572375f4.jpg" alt="PSYCHO-PASS サイコパス" class="w-full h-48 object-cover object-top transition duration-300 group-hover:opacity-75">
+                    <p class="p-3 text-center font-bold text-sm md:text-base">PSYCHO-PASS</p>
+                </a>
+            </div>
+            <div class="anime-item bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 overflow-hidden group cursor-pointer">
+                <a href="https://s-wars.jp/index.html" target="_blank" rel="noopener noreferrer" class="block">
+                    <img src="https://s-wars.jp/images/intro_image01.gif" alt="サマーウォーズ" class="w-full h-48 object-cover object-top transition duration-300 group-hover:opacity-75">
+                    <p class="p-3 text-center font-bold text-sm md:text-base">サマーウォーズ</p>
+                </a>
+            </div>
+           
+
+        </section>
+    </main>
+
+    
+    <footer class="w-full py-4 mt-10 text-center text-gray-500 border-t border-gray-700">
+        <p>&copy; 2025 アニメの部屋. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>
