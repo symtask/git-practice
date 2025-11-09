@@ -7,14 +7,17 @@
 header{
   width: 100%;
   height: 70px; 
-  background-color: pink;
+  background-color:#EC715F;;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
 
 }
 
-.logo img{width: auto;height: 70px;}
+.logo img{
+  width: auto;height: 70px;
+ margin-left:100px;
+}
 
 nav{
   width: 500px;
@@ -26,6 +29,7 @@ list-style: none;
 line-height: 70px;
 display: flex;
 justify-content: space-around;
+margin-right: 100px;
 }
 
 .top{
@@ -50,11 +54,10 @@ justify-content: space-around;
 }
 
 
-.gazobox{width: 100%;height: 650px;background-color: blueviolet;}
+.gazobox{width: 100%;height: 650px;}
 .gazozone
 {
   width: 1000px;height: 650px;
-  background-color: aqua;
   margin: 0 auto;
   display: flex; 
   flex-wrap: wrap;
@@ -89,7 +92,6 @@ justify-content: space-around;
 .kao{
   width: 300px; 
   height: 300px; 
-  background-color: pink;
 background-image:url(img/kao.jpg);
 border-radius: 50%;
 background-size: cover;
@@ -100,7 +102,6 @@ margin:5px;
   padding-top: 20px;
   width: 400px; 
   height: 300px;
-  background-color: beige;
   margin-left: 100px;
 }
 
@@ -114,7 +115,7 @@ margin:5px;
 footer{
   width: 100%;
   height: 60px;
-background-color: pink;
+background-color:#EC715F;
 text-align: center;
 line-height: 60px;
 }
